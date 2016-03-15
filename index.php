@@ -1,31 +1,25 @@
-<!DOCTYP html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Prvi PHP</title>
+    <meta charset="utf-8">
 </head>
 
 <body>
 <h1>Prvi PHP</h1>
 
-<?php
-    echo('qsyedxrfctgvzhbujnikmol<br>');
-    echo('<br>');
-    echo(date('d.m.Y.'));
+<form method="post" action="index.php">
+    Prvi broj:<br>
+    <input type="text" name="broj1"><br>
+    Drugi broj:<br>
+    <input type="text" name="broj2"><br>
+    Treći broj:<br>
+    <input type="text" name="broj3"><br>
+    <br>
+    <input type="text" name="ime"><br>
+    <br>
+    <input type="submit" value="Izračunaj">
+</form>
 
-    $ocjena = 5;
-    $jabuka = 1393402;
-    echo('<br>Vaša ocjena je:' . $ocjena);
-    echo('<br>Broj jabuka koji nisi pojeo je:' . $jabuka);
-?>
-
-
-
-
-
-
-
-<p>
-    Ovo je odlomak xD
-</p>
 </body>
 </html>
